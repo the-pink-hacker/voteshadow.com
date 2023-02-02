@@ -1,0 +1,23 @@
+{
+  "name": "vote-shadow",
+  "version": "1.0.0",
+  "description": "A project for school",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -w src/scss -o public/css --recusive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanGar46/vote-shadow.git"
+  },
+  "author": "Ryan Garrett (RyanGar46)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/RyanGar46/vote-shadow/issues"
+  },
+  "homepage": "https://github.com/RyanGar46/vote-shadow#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
