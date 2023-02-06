@@ -1,0 +1,17 @@
+.side-image {
+    background-color: white;
+    width: 33%;
+    overflow: hidden;
+    aspect-ratio: 1;
+    flex: none;
+    border: 4px solid var(--accent-color);
+    box-sizing: border-box;
+    border-radius: 32px;
+
+    img {
+        @include no-select;
+        object-fit: contain;
+        height: 100%;
+        width: 100%;
+    }
+}
