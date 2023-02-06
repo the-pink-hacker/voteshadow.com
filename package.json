@@ -4,8 +4,9 @@
   "description": "A project for school",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass -w src/scss -o public/css --recusive"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,8 @@
     "url": "https://github.com/RyanGar46/vote-shadow/issues"
   },
   "homepage": "https://github.com/RyanGar46/vote-shadow#readme",
-  "dependencies": {
-    "node-sass": "^8.0.0"
+  "devDependencies": {
+    "sass": "^1.58.0",
+    "vite": "^4.1.1"
   }
 }
