@@ -1,0 +1,22 @@
+:root {
+    //#region - Colors
+    --background-color: #000000;
+    --content-background-color: #1f1d1d;
+    --accent-color: #ff0000;
+    --text-color: #ffffff;
+    --footer-color: #0f0f0f;
+    //#endregion
+
+    //#region - Fonts
+    --font: Arial, Helvetica, sans-serif;
+    //#endregion
+
+    //#region - Sizes
+    --link-hover-line-size: 2px;
+    --link-hover-line-offset: 2px;
+    //#endregion
+
+    //#region - Timing
+    --link-hover-line-blink-time: 0.75s;
+    //#endregion
+}

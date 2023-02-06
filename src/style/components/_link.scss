@@ -1,0 +1,19 @@
+#content a,
+footer a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+    position: relative;
+
+    &:hover::after {
+        content: "";
+        animation: fade-in-out var(--link-hover-line-blink-time) infinite;
+        height: var(--link-hover-line-size);
+        display: inline-block;
+        position: absolute;
+        background-color: var(--text-color);
+        left: 0;
+        right: 0;
+        bottom: calc(var(--link-hover-line-size) * -1 + var(--link-hover-line-offset));
+    }
+}

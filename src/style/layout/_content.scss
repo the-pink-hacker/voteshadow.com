@@ -1,0 +1,7 @@
+#content {
+    flex: auto 1 1;
+    padding: 8px;
+    background-color: var(--content-background-color);
+    width: min(100%, 70em);
+    align-self: center;
+}

@@ -1,0 +1,11 @@
+#nav-bar {
+    @include no-select;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-bar-item {
+    padding: 4px;
+    background-color: red;
+    margin: 2px;
+}
