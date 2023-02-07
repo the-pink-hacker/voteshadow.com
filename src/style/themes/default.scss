@@ -4,7 +4,7 @@
     --content-background-color: #1f1d1d;
     --footer-color: #111010;
     --nav-bar-color: #111010;
-    --accent-color: #ff0000;
+    --accent-color: #ff3b18;
     --text-color: #ffffff;
     //#endregion
 
@@ -15,10 +15,13 @@
     //#region - Sizes
     --link-hover-line-size: 2px;
     --link-hover-line-offset: 2px;
-    --nav-bar-button-size: 2.5em;
+    --nav-bar-button-size: 2rem;
+    --content-text-size: 1rem;
+    --nav-bar-title-size: 2rem;
     //#endregion
 
     //#region - Timing
     --link-hover-line-blink-time: 1.0s;
+    --hover-fade-time: 0.125s;
     //#endregion
 }

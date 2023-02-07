@@ -2,5 +2,6 @@
     @include no-select;
     display: flex;
     flex-direction: row;
+    align-items: center;
     background-color: var(--nav-bar-color);
 }

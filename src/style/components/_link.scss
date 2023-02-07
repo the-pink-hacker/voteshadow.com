@@ -5,15 +5,25 @@ footer a {
     font-weight: bold;
     position: relative;
 
-    &:hover::after {
-        content: "";
-        animation: fade-in-out var(--link-hover-line-blink-time) infinite;
-        height: var(--link-hover-line-size);
-        display: inline-block;
-        position: absolute;
-        background-color: var(--text-color);
-        left: 0;
-        right: 0;
-        bottom: calc(var(--link-hover-line-size) * -1 + var(--link-hover-line-offset));
+    &::after {
+        transition: background-color var(--hover-fade-time) ease-in;
+        color: var(--text-color);
+    }
+
+    &:hover {
+        color: var(--accent-color);
+        transition: color var(--hover-fade-time) ease-in;
+
+        &::after {
+            content: "";
+            animation: fade-in-out var(--link-hover-line-blink-time) infinite;
+            height: var(--link-hover-line-size);
+            display: inline-block;
+            position: absolute;
+            background-color: var(--accent-color);
+            left: 0;
+            right: 0;
+            bottom: calc(var(--link-hover-line-size) * -1 + var(--link-hover-line-offset));
+        }
     }
 }

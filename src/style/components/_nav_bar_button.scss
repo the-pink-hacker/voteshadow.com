@@ -1,0 +1,17 @@
+a.nav-bar-item {
+    color: var(--text-color);
+    aspect-ratio: 1;
+    margin: 8px;
+    width: var(--nav-bar-button-size);
+    height: var(--nav-bar-button-size);
+
+    i.material-icons {
+        font-size: var(--nav-bar-button-size);
+        height: 100%;
+        width: 100%;
+
+        &:hover {
+            color: var(--accent-color);
+        }
+    }
+}

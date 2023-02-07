@@ -2,7 +2,7 @@
     flex: auto 1 1;
     padding: 8px;
     background-color: var(--content-background-color);
-    width: min(100%, 70em);
+    width: min(100%, calc(var(--content-text-size) * 70));
     align-self: center;
     box-sizing: border-box;
 }
