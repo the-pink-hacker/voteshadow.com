@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "voteshadow.com",
   "private": true,
   "type": "module",
   "scripts": {
@@ -7,12 +7,24 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "deploy": "export NITRO_PRESET=firebase && nuxt build && firebase deploy"
   },
   "devDependencies": {
+    "@nuxt/content": "^2.7.2",
     "@nuxt/devtools": "latest",
-    "nuxt": "^3.8.2",
-    "vue": "^3.3.10",
-    "vue-router": "^4.2.5"
+    "@types/node": "^18",
+    "node-sass": "^9.0.0",
+    "nuxt": "^3.5.2",
+    "sass": "^1.63.4",
+    "vite": "^5.0.9",
+    "vue": "^3.3.11"
+  },
+  "dependencies": {
+    "firebase": "^10.7.1",
+    "firebase-admin": "^11.0.0",
+    "firebase-functions": "^4.5.0",
+    "firebase-tools": "^13.0.2",
+    "unstorage": "^1.10.1"
   }
 }
